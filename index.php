@@ -15,7 +15,7 @@ $error=1;
 if(isset($_GET['username']) &&  isset($_GET['password']))
 {
     if($name !='' && $password !='')
-    {        if($dbusername == $name)		{
+    {        if($dbusername == $name)        {
 			if (isloggedin()) 
 			{
 			    redirect($CFG->wwwroot."/".$urlstr);
